@@ -1,3 +1,16 @@
+// When user clicks generate password:
+// ASk user for desiered length
+//store length as variable
+//ask if user wants to include lowercase
+//ask if user wants to include uppcase
+//ask if user wants to include numerics
+//ask if user wants to include special character
+//for loop to reach desired length
+
+
+
+
+
 // Assignment code here
 var generatePassword = function() {
   var promptLength = window.prompt("Choose a length of at least 8 characters and no more than 128 characters.");
@@ -9,7 +22,7 @@ var generatePassword = function() {
     return generatePassword();
   }
 
-  
+  for (var i = 0; i < promptLength; i++)
 }
 
 // Get references to the #generate element
