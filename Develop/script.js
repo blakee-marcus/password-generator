@@ -7,14 +7,21 @@
 //ask if user wants to include special character
 //for loop to reach desired length
 
+var randomNumber = function(min, max) {
+  var value = Math.floor(Math.random() (max - min + 1) + min);
 
+  return value;
+};
+
+var random
 
 
 
 // Assignment code here
 var generatePassword = function() {
   var promptLength = window.prompt("Choose a length of at least 8 characters and no more than 128 characters.");
-
+  promptLength = parseInt(promptLength);
+  
 
   // check for blank responds
   if (promptLength === ""  || promptLength === null) {
@@ -22,7 +29,9 @@ var generatePassword = function() {
     return generatePassword();
   }
 
-  for (var i = 0; i < promptLength; i++)
+  for (var i = 0; i < promptLength; i++) {
+    random
+  }
 }
 
 // Get references to the #generate element
